@@ -1,0 +1,40 @@
+h1{
+    color : rgb(218, 97, 17);
+}
+hr{
+    background-color : rgb(218, 97, 17);
+
+}
+td img{
+    width :70px;
+    height :70px;
+}
+td{
+    text-align : center;
+    line-height :70px;
+    font-size :16px;
+}
+th{
+    text-align : center;
+    line-height :70px;
+    font-size :20px;
+}
+label{
+    font-size :14px;
+}
+.naruci{
+    font-size :20px;
+}
+.form-control{
+    font-size : 15px;
+    
+}
+.error{
+    color : red;
+}
+.alert_greska{
+    display : none;
+}
+.alert_uspesno{
+    display : none;
+}

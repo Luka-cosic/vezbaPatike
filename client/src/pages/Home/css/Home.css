@@ -1,0 +1,81 @@
+img{
+    border-radius: 3px;
+    width: 300px;
+    height:400px;
+    z-index: 0;
+}
+
+/* Slike */
+
+.senka1{
+    width:300px;
+    height: 400px;
+    background-color: rgba(34, 33, 33, 0.842);
+    position: absolute;
+    left: 200px;
+    border-radius: 3px;
+    
+}
+.senka2{
+    width:300px;
+    height: 400px;
+    background-color: rgba(34, 33, 33, 0.842);
+    position: absolute;
+    left: 600px;
+    border-radius: 3px;
+    
+
+}
+.senka3{
+    width:300px;
+    height: 400px;
+    background-color: rgba(34, 33, 33, 0.842);
+    position: absolute;
+    left: 1000px;
+    border-radius: 3px;
+    
+
+}
+.second{
+    width: 270px;
+    height: 370px;
+    background-color:white;
+    margin-left:15px;
+    margin-top:15px; 
+    border-radius: 3px;
+    
+
+}
+.slika1{
+    position: absolute;
+    left: 220px;
+    top: 20px;
+    z-index: 1;
+}
+.slika2{
+    position: absolute;
+    left: 620px;
+    top: 20px;
+    z-index: 1;
+}
+.slika3{
+    position: absolute;
+    left: 1020px;
+    top: 20px;
+    z-index: 1;
+}
+.slika1:hover{
+    transform: translate(-20px, -20px);
+    transition: 1s;
+}
+.slika2:hover{
+    transform: translate(-20px, -20px);
+    transition: 1s;
+}
+.slika3:hover{
+    transform: translate(-20px, -20px);
+    transition: 1s;
+}
+#wrap{
+    position: relative;
+}

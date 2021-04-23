@@ -1,0 +1,48 @@
+.divOnHover{
+    display: none;
+   border-radius: 3px;
+   background-color:rgb(97, 95, 95)
+}
+.numberOfOrders{
+    width: 20px;
+    height: 20px;
+    background-color:red;
+    border-radius:50%;
+    color: white;
+    font-size:15px;
+    text-align:center;
+    line-height: 20px;
+    position: relative;
+    top: -10px;
+    /* display: none; */
+}
+
+.divOnHover{
+    width: 300px;
+  position:absolute;
+  left:1100px;
+  z-index: 1;
+  box-shadow: 5px 5px 5px black;
+  background: white;
+}
+
+
+.hoverImg{
+    border: 1px solid black;
+    float: left;
+}
+.hoverName{
+    float: left;
+    font-size:30px;
+    margin-left: 50px;
+}
+.hoverPrice{
+    float: left;
+    font-size:20px;
+    color:rgb(255, 60, 0);
+    margin-left: 50px;
+}
+.hoverBtn{
+  margin-left:150px;
+    
+}

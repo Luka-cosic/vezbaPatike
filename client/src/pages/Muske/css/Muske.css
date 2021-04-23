@@ -1,0 +1,36 @@
+
+.overImg{
+    width:200px;
+    height:200px;
+    border-radius:3px;
+    background-color:black;
+    position: absolute;
+    top: 10px;
+    left:25px;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    line-height:200px;
+    cursor: pointer;
+    
+}
+.overImg:hover{
+    opacity: 0.6;
+}
+
+figure{
+    height:200px;
+    width:200px;
+    overflow: hidden;
+}
+.muskeImg{
+    width:200px;
+    height:200px;
+    transition: 1s;
+}
+.muskeImg:hover{
+    
+    transform: scale(1.3,1.3);
+}
+

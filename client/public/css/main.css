@@ -1,0 +1,46 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+/* Navbar Linkovi */
+
+.linkovi:link{
+    font-size: 20px;
+    margin-left:15px;
+    text-decoration: none;
+}
+.linkovi, .brand{
+    color: white;
+}
+.brand:link{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.slicice{
+    cursor:pointer;
+   
+}
+
+/* Caroluser */
+.carousel-inner > .item > img{
+    width: 1000px;
+    height:300px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .carousel-inner{
+      width:1000px;
+      height:300px;
+      margin: auto;
+      margin-bottom: 30px;
+  }
+  .item{
+      width:1000px;
+      height:300px;
+      margin: auto;
+      
+  }
+
