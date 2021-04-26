@@ -11,9 +11,18 @@ function Single() {
     const [current, changeCurrent] = useState({});
     const [counter, changeCounter] = useState(0);
     const [deg, changeDeg] = useState(360);
-
-
-    const muskeVel = [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51];
+    const numbersOfSneakers = JSON.parse(localStorage.getItem('current')).pol;
+    
+    
+    let numbers;
+    if(numbersOfSneakers === "muske"){
+        numbers = [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51];
+    }else if(numbersOfSneakers === 'zenske'){
+        numbers = [30, 31.5, 32, 32.5, 33, 33.5, 34, 34.5, 35, 35.5, 36, 37,38];
+    }else{
+        numbers = [26, 26.5, 27, 27.5, 28, 28.5, 29, 30, 31, 32, 33, 34];
+    }
+    
 
     let glavna = useRef();
     let lens = useRef();
@@ -21,7 +30,7 @@ function Single() {
     let greska = useRef();
 
 
-    const velicine = muskeVel.map((el, index) => {
+    const velicine = numbers.map((el, index) => {
         return (
             <div id={index} className="col-2 vel" key={index} onClick={(e) => { changeCurrent({ ...current, vel: e.target.innerHTML }) }}>
                 <NavLink to="#">

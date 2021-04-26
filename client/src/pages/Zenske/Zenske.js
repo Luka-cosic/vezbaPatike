@@ -15,7 +15,7 @@ function Zenske() {
 // Go to single page 
 
     const onDetaljnije = (current)=>{
-        Servis.setCurrentIntoStorage(current);   
+        Servis.setCurrentIntoStorage({...current, pol:"zenske"});   
         dispatch(single(current.id,"zenske"));
         history.push('/single'); 
     }

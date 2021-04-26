@@ -14,7 +14,9 @@ function Muske() {
     //   Go to single page 
 
     const onDetaljnije = (current) => {
-        Servis.setCurrentIntoStorage(current);
+        console.log(current);
+        
+        Servis.setCurrentIntoStorage({...current, pol:"muske"});
         dispatch(single(current.id, "muske"));
         history.push('/single');
     }

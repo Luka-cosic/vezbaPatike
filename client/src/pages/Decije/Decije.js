@@ -12,9 +12,9 @@ function Decije() {
     const dispatch = useDispatch();
     const history = useHistory();
 
-    // Go to single page and save in s
+    // Go to single page and save in storage
     const onDetaljnije = (current)=>{
-        Servis.setCurrentIntoStorage(current);   
+        Servis.setCurrentIntoStorage({...current, pol:"decije"});   
         dispatch(single(current.id,"decije"));
         history.push('/single'); 
     }
